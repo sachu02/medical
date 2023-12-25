@@ -1,0 +1,155 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar {
+    background-color: #3498db;
+  }
+  .navbar-brand img{
+    height: 40px;
+    width: 35px;
+    background-color: transparent;
+  }
+  .navbar .navbar-nav .nav-item a {
+    padding-left: 100px;
+    font-weight: 500;
+    color: white;
+  }
+  .navbar .navbar-nav .nav-item a:hover {
+    font-size: 20px;
+    color: blue;
+  }
+
+
+  
+  /* Dropdown Links */
+  .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: black;
+  }
+/* home */
+.home {
+  padding: 50px; /* Adjust padding as needed */
+  background-image: url('image/graphic-img.png');
+}
+.company-details {
+  text-align:left;
+  margin-top:40px;
+}
+.company-details h1{
+font-weight:600;
+}
+
+.doctor-img {
+  max-width: 80%;
+  height: auto;
+position: relative;
+top: 50px;
+left: 30px;
+}
+
+/* about */
+
+.container-bg {
+background-color:rgba(154, 199, 226, 0.649) ;
+  display: flex;
+  align-items: center;
+}
+
+.about-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-item h1{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.about-item:hover{
+  transform: scale(1.01);
+  box-shadow: 0 0 20px rgba(128, 0, 128, 0.7);
+  border: 1px solid blue;
+}
+/* Doctors*/
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('image/keybord.jpg') center/cover no-repeat; /* Replace 'your-background-image.jpg' with the actual image URL */
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 255, 0.5); /* Transparent blue overlay */
+}
+
+/* Text Overlay Styles */
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.transparent-bg:hover{
+  background-color: rgba(0, 0, 255, 0.5);
+  font-weight: 700;
+}
+
+.text-overlay h1 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 2.5em;
+}
+.text-overlay h1:hover{
+  color: black;
+}
+
+.text-overlay p {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.transparent-bg {
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent black background */
+  padding: 10px;
+  display: inline-block;
+  justify-content: center;
+  border-radius: 10px;
+}
+/* contact */
+.fa-map-marker-alt,.fa-envelope,.fa-phone,.fa-twitter{
+  color: #3498db;
+}
+.fa-map-marker-alt:hover,.fa-envelope:hover,.fa-phone:hover,.fa-twitter:hover{
+  transform: scale(1.5);
+}
+.fa-facebook-f,.fa-linkedin-in,.fa-instagram{
+ margin-left:20px;
+
+}
+.detail h2{
+  color: blue;
+  font-weight: 700;
+
+} 
+.desi {
+  height:50px;
+  background-color:#3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.desi p{
+  line-height: 50px;
+}
